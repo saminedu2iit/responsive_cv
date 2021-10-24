@@ -1,0 +1,281 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body
+{
+  background-color: #94D9EA;
+  font-family: 'Nunito', sans-serif;
+}
+
+.main-content
+{
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+
+}
+
+.left-section
+{
+  grid-column: span 2;
+  height: 100%;
+  background-color: #00324A;
+
+}
+
+.right-section
+{
+  grid-column: span 5;
+  height: 100%;
+  background-color: #f7f7f7;
+
+}
+
+.left-content
+{
+  padding: 2rem 3rem;
+}
+.profile
+{
+width: 100%;
+border-bottom: 1px solid #002333;
+}
+
+.profile img
+{
+  width: 100%
+  border-radius:50%;
+  border:8px solid #002333;
+  padding: 1.5rem 0;
+
+}
+
+.name
+{
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  text-transform:  uppercase;
+  letter-spacing: 1px;
+}
+
+.career
+{
+  font-size: 1.2rem;
+  color: #94d9EA;
+  text-align: center;
+  text-transform:  uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.main-title
+{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:#f7f7f7;
+  padding-top: 3rem;
+}
+
+.contact-info ul
+{
+  padding-top: 2rem;
+}
+
+.contact-info ul li
+{
+  padding: 0.4rem 0;
+  display: flex;
+  align-items: center;
+  color: #718096;
+}
+
+.contact-info ul li i
+{
+  padding: 1rem;
+  font-size: 1.1rem;
+  color:#2D9CDB;
+}
+
+.skills-section ul
+{
+  padding-top: 2rem;
+}
+.skills-section ul li
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 0.4rem,0;
+
+}
+.progress-bar
+{
+  width:100%;
+  height:0.4rem;
+  background-color: #2D3748;
+  position: relative;
+  border-radius: 12px;
+}
+
+.progress
+{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #2D9CDB;
+  border-radius: 12px;
+}
+
+.ps-progress
+{
+width: 70%;
+}
+
+.ex-progress
+{
+width: 80%;
+}
+.ibm-progress
+{
+width: 90%;
+}
+
+.dsa-progress
+{
+width: 75%;
+}
+.html-progress
+{
+width: 95%;
+}
+
+.cac-progress
+{
+  width:80%;
+}
+.skill-title
+{
+  text-transform: uppercase;
+  color: #f7f7f7;
+  font-size: 1rem;
+
+}
+
+.sub-title
+{
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color:#f7f7f7;
+}
+
+
+.sub-para
+{
+  color: #ccc;
+  padding: .4rem 0;
+}
+
+.references-section li
+{
+  color: #ccc;
+  padding: 0.2rem 0;
+}
+
+.references-section li i
+{
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+  color: #2D9CDB;
+}
+
+.right-main-content
+{
+  padding: 2rem 3rem;
+
+}
+
+.right-title
+{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color:#2F80ED;
+  margin-bottom:1.2rem;
+  position: relative;
+}
+
+.right-title::after
+{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 0.2rem;
+  background-color: #2D9CDB;
+  border-radius: 12px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.para
+{
+  line-height: 1.6rem;
+  color: #718096;
+  font-size: 1.1rem;
+}
+
+.sect
+{
+  padding-bottom: 2rem;
+
+}
+
+.timeline
+{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+}
+.tl-title
+{
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #002333;
+  text-transform: uppercase;
+}
+
+.tl-title-2
+{
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+  color: #2D9CDB;
+  text-transform: uppercase;
+}
+
+.tl-content
+{
+  border-left: 2px solid #ccc;
+  padding-left: 2rem;
+  position: relative;
+  padding-bottom: 2rem;
+
+
+}
+
+.tl-title-2::before
+{
+  content: "";
+  position: absolute;
+  width:0.7rem;
+  height: 0.7rem;
+  background-color: #2D9CDB;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  left: 0;
+}
